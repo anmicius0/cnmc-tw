@@ -5,9 +5,28 @@
 }
 
 a {
-    color: #000
+    color: #000;
+}
+
+nav {
+    color: white;
+    z-index: 1;
+}
+
+.index_title {
+    font-size: 7rem;
+    padding-left 0%;
+}
+
+.index_second_title {
+    font-size: 5rem;
+}
+
+.list-group-item {
+    font-size: 1.25rem;
+    padding-left: 0%;
 }
 
 .section {
-    height:100vh
+    height:100vh;
 }
