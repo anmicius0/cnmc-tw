@@ -4,6 +4,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" />
     <link rel="stylesheet" href="./index.css">
     <!-- <link rel="stylesheet" href="debug.css"> -->
 </head>
@@ -39,49 +40,57 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-md-5 center">
-            <h1>CNMC</h1>
+    <div id="fullpage">
+        <div class="section">
+            <div class="row">
+                <div class="col-md-5 center">
+                    <h1>CNMC</h1>
+                </div>
+
+                <div class="col-md-7">
+                    <img src="./img/pale-logged-out.png" style="width:100%;"/>
+                </div>
+            </div>
         </div>
 
-        <div class="col-md-7">
-            <img src="./img/pale-logged-out.png" style="width:100%;"/>
+        <div class="section">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="./img/pale-order-completed.png" style="width:100%;"/>
+                </div>
+                <div class="col-md-5 center">
+                    <div>
+                        <h2>內部服務</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="http://svn.cnmc.tw/">SVN (設定檔在此, 限制IP)</a></li>
+                            <li class="list-group-item"><a href="http://wiki.cnmc.tw/">Wiki</a></li>
+                            <li class="list-group-item"><a href="http://git.cnmc.tw/">Gitweb</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div style="height:30vh; color:white;"></div>
-
-    <div class="row">
-        <div class="col-md-7">
-            <img src="./img/pale-order-completed.png" style="width:100%;"/>
-        </div>
-        <div class="col-md-5 center">
-            <div>
-                <h2>內部服務</h2>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="http://svn.cnmc.tw/">SVN (設定檔在此, 限制IP)</a></li>
-                    <li class="list-group-item"><a href="http://wiki.cnmc.tw/">Wiki</a></li>
-                    <li class="list-group-item"><a href="http://git.cnmc.tw/">Gitweb</a></li>
-                </ul>
+        <div class="section">
+            <div class="row">
+                <div class="col-md-5 center">
+                    <div>
+                        <h2>內部服務</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="http://svn.cnmc.tw/">SVN (設定檔在此, 限制IP)</a></li>
+                            <li class="list-group-item"><a href="http://wiki.cnmc.tw/">Wiki</a></li>
+                            <li class="list-group-item"><a href="http://git.cnmc.tw/">Gitweb</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img src="./img/done-5.png" style="width:100%;"/>
+                </div>
             </div>
         </div>
     </div>
 
-    <div style="height:30vh; color:white;"></div>
-
-    <div class="row">
-        <div class="col-md-5 center">
-            <div>
-                <h2>內部服務</h2>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="http://svn.cnmc.tw/">SVN (設定檔在此, 限制IP)</a></li>
-                    <li class="list-group-item"><a href="http://wiki.cnmc.tw/">Wiki</a></li>
-                    <li class="list-group-item"><a href="http://git.cnmc.tw/">Gitweb</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-7">
-            <img src="./img/done-5.png" style="width:100%;"/>
-        </div>
-    </div>
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.extensions.min.js"></script>
+    <script src="./index.js"></script>
 </body>
