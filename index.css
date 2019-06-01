@@ -15,7 +15,7 @@ nav {
 
 .index_title {
     font-size: 7rem;
-    padding-left 0%;
+    padding-left: 0%;
 }
 
 .index_second_title {
@@ -25,8 +25,4 @@ nav {
 .list-group-item {
     font-size: 1.25rem;
     padding-left: 0%;
-}
-
-.section {
-    height:100vh;
 }
