@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #000;
+}
+
+nav {
+    color: white;
+    z-index: 1;
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.25rem;
+    .navbar-brand {
+        font-size: 1.8rem;
+        color: black;
+    }
+}
+
+.index_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    padding-left: 0%;
+}
+
+
+.index_menu {
+
+    font-family: 'Noto Sans TC', sans-serif;
+
+    .index_second_title {
+        font-size: 5rem;
+    }
+
+    .list-group-item {
+        font-size: 1.25rem;
+        padding-left: 0%;
+    }
+}

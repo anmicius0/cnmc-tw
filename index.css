@@ -1,52 +1,47 @@
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 a {
-    color: #000;
+  color: #000;
 }
 
 nav {
-    color: white;
-    z-index: 1;
+  color: white;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
 }
 
-#index_img_0 {
-    background-image: url('./img/circle_blue.svg');
-    background-repeat: no-repeat;
-    background-position-x: -90%;
-    background-position-y: -170%;
-    background-size: 1000px;
-}
-
-#index_img_1 {
-    background-image: url('./img/circle_green.svg');
-    background-repeat: no-repeat;
-    background-position-x: 180%;
-    background-position-y: 300%;
-    background-size: 1000px;
-}
-
-#index_img_2 {
-    background-image: url('./img/circle_red.svg');
-    background-repeat: no-repeat;
-    background-position-x: -400px;
-    background-position-y: -810px;
-    background-size: 1000px;
+nav .navbar-brand {
+  font-size: 1.8rem;
+  color: black;
 }
 
 .index_title {
-    font-size: 7rem;
-    padding-left: 0%;
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  padding-left: 0%;
 }
 
-.index_second_title {
-    font-size: 5rem;
+.index_menu {
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
-.list-group-item {
-    font-size: 1.25rem;
-    padding-left: 0%;
+.index_menu .index_second_title {
+  font-size: 5rem;
 }
+
+.index_menu .list-group-item {
+  font-size: 1.25rem;
+  padding-left: 0%;
+}
+/*# sourceMappingURL=index.css.map */
