@@ -13,6 +13,30 @@ nav {
     z-index: 1;
 }
 
+#index_img_0 {
+    background-image: url('./img/circle_blue.svg');
+    background-repeat: no-repeat;
+    background-position-x: -90%;
+    background-position-y: -170%;
+    background-size: 1000px;
+}
+
+#index_img_1 {
+    background-image: url('./img/circle_green.svg');
+    background-repeat: no-repeat;
+    background-position-x: 180%;
+    background-position-y: 300%;
+    background-size: 1000px;
+}
+
+#index_img_2 {
+    background-image: url('./img/circle_red.svg');
+    background-repeat: no-repeat;
+    background-position-x: -400px;
+    background-position-y: -810px;
+    background-size: 1000px;
+}
+
 .index_title {
     font-size: 7rem;
     padding-left: 0%;
