@@ -32,7 +32,7 @@ nav .navbar-brand {
 }
 
 nav .dropdown-item {
-  font-size: 2.75vh;
+  font-size: 2.5vh;
 }
 
 .row {
@@ -63,7 +63,23 @@ nav .dropdown-item {
   width: 100%;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1100px) {
+  nav {
+    color: white;
+    z-index: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 3vmax;
+  }
+  nav .navbar-brand {
+    font-size: 4vmax;
+    color: black;
+  }
+  nav .dropdown-item {
+    font-size: 2.5vmax;
+  }
+}
+
+@media (max-width: 575px) {
   .index_title {
     font-size: 20vw;
   }
