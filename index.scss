@@ -17,9 +17,9 @@ nav {
     color: white;
     z-index: 1;
     font-family: 'Playfair Display', serif; 
-    font-size: 1.25rem;
+    font-size: 3vh;
     .navbar-brand {
-        font-size: 1.8rem;
+        font-size: 4vh;
         color: black;
     }
 }
@@ -31,7 +31,7 @@ nav {
 
 .index_title {
     font-family: 'Playfair Display', serif;
-    font-size: 7rem;
+    font-size: 8vw;
     padding-left: 0%;
 }
 
@@ -41,11 +41,11 @@ nav {
     font-family: 'Noto Sans TC', sans-serif;
 
     .index_second_title {
-        font-size: 5rem;
+        font-size: 5vw;
     }
 
     .list-group-item {
-        font-size: 1.25rem;
+        font-size: 1.6vw;
         padding-left: 0%;
     }
 }
@@ -55,7 +55,7 @@ nav {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
 
     .index_title{
         font-size: 20vw;
