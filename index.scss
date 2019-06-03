@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+::-moz-selection {
+    color: white;
+    background-color: black;
+}
+
 a {
     color: #000;
 }
@@ -48,6 +53,7 @@ nav {
 .index_img, #index_cover {
     width:100%;
 }
+
 
 @media (max-width: 767px) {
     .index_title{
