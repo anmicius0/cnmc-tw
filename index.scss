@@ -19,6 +19,11 @@ nav {
     }
 }
 
+.row {
+    height: 100%;
+    width: 100%;
+}
+
 .index_title {
     font-family: 'Playfair Display', serif;
     font-size: 7rem;
@@ -38,4 +43,45 @@ nav {
         font-size: 1.25rem;
         padding-left: 0%;
     }
+}
+
+.index_img, #index_cover {
+    width:100%;
+}
+
+@media (max-width: 767px) {
+    .index_title{
+        font-size: 20vw;
+    }
+
+    #index_cover {
+        max-height: 60vh;
+        max-width: 100vw;
+        height: auto;
+        width: auto;
+    }
+
+    .img_container{
+        height:40vh;
+
+        .index_img {
+            max-height: 40vh;
+            max-width: 100vw;
+            height: auto;
+            width: auto;
+        }
+    }
+
+    .index_menu{
+        height: 55vh;
+
+        .index_second_title {
+            font-size: 8vw;
+        }
+        .list-group-item {
+            font-size: 4vw;
+            padding-left: 0%;
+        }
+    }
+
 }
