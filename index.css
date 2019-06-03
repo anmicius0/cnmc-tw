@@ -74,7 +74,7 @@ nav .dropdown-item {
     width: auto;
   }
   .img_container {
-    height: 40vh;
+    height: 45vh;
   }
   .img_container .index_img {
     max-height: 40vh;
@@ -86,10 +86,10 @@ nav .dropdown-item {
     height: 55vh;
   }
   .index_menu .index_second_title {
-    font-size: 8vw;
+    font-size: 8.5vw;
   }
   .index_menu .list-group-item {
-    font-size: 4vw;
+    font-size: 5vw;
     padding-left: 0%;
   }
 }
